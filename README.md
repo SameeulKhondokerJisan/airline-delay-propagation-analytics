@@ -112,3 +112,7 @@ for America, [U.S. Passenger Carrier Delay Costs](https://airlines.org/dataset/u
   differences between years.
 * 3 carriers reported for fewer than 24 months; they are in the tables but
   not in the carrier ranking.
+
+## License
+
+Code, SQL and documentation are released under the [MIT License](LICENSE). The data is not covered by this license: it belongs to the publishers listed under Data and remains under their terms.
