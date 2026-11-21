@@ -1,0 +1,12 @@
+rule,severity,failures
+Flight dates inside the study window,hard,0
+Every study month is present,hard,0
+Scheduled times parse to minutes 0-1439,hard,0
+Not cancelled or diverted but no arrival time (treated as not operated),soft,1
+Arrival delay flag matches arrival delay of 15+ minutes,hard,0
+Cancelled flights have a cancellation code,hard,0
+Delay causes add up to the arrival delay (delayed flights),soft,160
+Tail number missing,soft,30990
+Scheduled arrival day offset outside 0-1 (time zones),soft,2
+"Same carrier, flight number, date and origin twice",soft,1
+Origin airport without coordinates,soft,57738
